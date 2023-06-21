@@ -1,3 +1,5 @@
+
+
 .landing-top {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -19,6 +21,7 @@
   }
   
   .landing-pic-container {
+	background-image: url("../public/landing-picture.jpg");
 	width: 300px;
 	height: 300px;
 	border-radius: 50%;
@@ -60,7 +63,7 @@
   }
   
   .intro-text-mid-icon {
-	font-size: 0.5rem;
+	font-size: 10px;
 	color: #333;
 	margin-bottom: 1rem;
   }

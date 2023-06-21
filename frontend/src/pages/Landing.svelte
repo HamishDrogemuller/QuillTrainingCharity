@@ -1,6 +1,8 @@
 <script>
       import { FaGgCircle, FaGratipay, FaMegaport } from 'svelte-icons/fa';
       import '../landing.css';
+      
+      
 </script>
 
 <!----------------------------- Layout Section -----------------------------> 
@@ -9,7 +11,6 @@
     <h1 class="intro-text-top">Welcome to <br /> Quill Training Charity</h1>
   </div>
   <div class="landing-pic-container">
-    <img class="landing-pic" alt="landing-pic" src= "../../public/landing-picture.jpg"/>
   </div>
 </div>
 <div class="landing-mid">
