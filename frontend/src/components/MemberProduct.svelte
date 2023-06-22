@@ -52,6 +52,7 @@
             <th scope="col">Name</th>
             <th scope="col">Voucher Price</th>
             <th scope="col">Product Claimed?</th>
+            <th scope="col">Location</th>
           </tr>
         </thead>
         <tbody>
@@ -62,6 +63,7 @@
                 <td>{product.name}</td>
                 <td>{product.voucherPrice}</td>
                 <td>{product.claimedStatus ? "Yes" : "No"}</td>
+                <td>{product.location}</td>
                 <td>
                   <Button variant="primary" on:click={updateClaimedStatus}
                     >Update Claim</Button

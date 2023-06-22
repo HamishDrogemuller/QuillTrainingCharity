@@ -3,6 +3,7 @@
   import { onMount } from "svelte";
   import { useParams } from "svelte-navigator";
   import axios from "axios";
+  import Map from './map.svelte';
 
   let products = {};
 
@@ -62,6 +63,9 @@
       <Button variant="primary" href="/Product">Back</Button>
       <Button variant="primary" on:click={handleClaim}>Claim</Button>
     </div>
+  </div>
+  <div class="map-container">
+    <Map />
   </div>
 </div>
 

@@ -123,6 +123,7 @@
     "kareem": "^2.3.4",
     "keyv": "^3.1.0",
     "latest-version": "^5.1.0",
+    "leaflet": "^1.9.4",
     "lodash": "^4.17.21",
     "lowercase-keys": "^1.0.1",
     "lru-cache": "^6.0.0",

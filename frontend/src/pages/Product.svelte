@@ -2,6 +2,9 @@
   import axios from "axios";
   import { onMount } from "svelte";
   import ProductComponent from "../components/ProductComponent.svelte";
+  import Map from './map.svelte';
+
+
 
   let products = [];
 
@@ -34,7 +37,15 @@
       <ProductComponent {product} />
     {/each}
   </div>
+  <div class="map-container">
+    <Map />
+  </div>
 </div>
+
+
+
+
+
 
 <style>
   .product-container {
@@ -51,6 +62,11 @@
     width: 100%;
     max-width: max-content;
     height: auto;
+  }
+
+  .map-container{
+    width: 50%;
+    height: 50%;
   }
 
   @media screen and (max-width: 991px) {

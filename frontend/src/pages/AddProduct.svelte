@@ -8,6 +8,7 @@
   let voucherPrice = "";
   let imageUrl = "";
   let category = "";
+  let location = "";
   const userInfo = JSON.parse(localStorage.getItem('userInfo'));
 
 
@@ -17,7 +18,8 @@
       description === "" ||
       voucherPrice === "" ||
       imageUrl === "" ||
-      category === ""
+      category === "" ||
+      location ===""
     ) {
       setError("Please fill in all the fields");
       setLoading(false);
@@ -31,6 +33,7 @@
           category,
           memberId: userInfo.data._id,
           claimedStatus: false,
+          location,
         })
         .then((res) => {
           setTimeout(() => {
@@ -113,6 +116,17 @@
               placeholder="Enter category"
               name="category"
               bind:value={category}
+            />
+          </FormGroup>
+          <FormGroup>
+            <label for="location">Location</label>
+            <input
+              type="text"
+              class="form-control"
+              id="category"
+              placeholder="Enter location"
+              name="location"
+              bind:value={location}
             />
           </FormGroup>
         </div>
