@@ -26,6 +26,8 @@
   });
 </script>
 
+
+
 <div class="product-container" id="prod-contain">
   <div class="product-list">
     {#each products as product (product._id)}

@@ -6,9 +6,9 @@
 </script>
 
 <!----------------------------- Layout Section -----------------------------> 
-<div class="landing-top">
+<div class="landing-top" style="background-image: url('../../public/landing-picture.jpg');background-size: cover;background-position: center;">
   <div class="intro-text-container">
-    <h1 class="intro-text-top">Welcome to <br /> Quill Training Charity</h1>
+    <h1 class="intro-text-top">Quill Training Charity</h1>
   </div>
   <div class="landing-pic-container">
   </div>
